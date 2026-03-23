@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+/* Error message style */
+small {
+    color: red;
+    display: block;
+    text-align: left;
+}
+
+/* Error highlight */
+.error {
+    border: 2px solid red;
+}

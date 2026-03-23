@@ -1,0 +1,55 @@
+ /* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background:darkgrey;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    min-height: 200px;
+}
+
+/* Different Background Colors */
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: lightgrey;
+}
+
+#contact {
+    background: grey;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}

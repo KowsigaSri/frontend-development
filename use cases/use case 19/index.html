@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>📊 Data Dashboard</h1>
+
+<div class="dashboard">
+
+    <!-- Stats Cards -->
+    <div id="cardsContainer" class="cards"></div>
+
+    <!-- Charts -->
+    <div class="charts">
+
+        <div class="chart-box">
+            <h3>Sales Overview</h3>
+            <canvas id="salesChart"></canvas>
+        </div>
+
+        <div class="chart-box">
+            <h3>User Growth</h3>
+            <canvas id="userChart"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

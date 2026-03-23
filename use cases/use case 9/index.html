@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="profile-container">
+        <h2>User Profile</h2>
+
+
+        <form id="profileForm">
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email" disabled>
+            </div>
+
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="number" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="location">
+            </div>
+
+            <button type="submit">Save Changes</button>
+
+            <p id="statusMsg"></p>
+
+
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

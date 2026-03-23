@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.form-container {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+  text-align: center;
+}
+
+
+.progress-bar {
+  height: 5px;
+  background: #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+
+.form-step {
+  display: none;
+}
+
+
+.form-step.active {
+  display: block;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+button {
+  padding: 8px 15px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+button:hover {
+  opacity: 0.9;
+}
+
+
+#prevBtn {
+  background: #777;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multi-Step Form Wizard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="form-container">
+  <h2>Multi-Step Form</h2>
+
+
+  <!-- Progress Bar -->
+  <div class="progress-bar">
+    <div class="progress" id="progress"></div>
+  </div>
+
+
+  <form id="multiStepForm">
+
+
+    <!-- Step 1 -->
+    <div class="form-step active">
+      <label>Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <span class="error"></span>
+    </div>
+
+
+    <!-- Step 2 -->
+    <div class="form-step">
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+      <span class="error"></span>
+    </div>
+
+
+    <!-- Step 3 -->
+    <div class="form-step">
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Enter password">
+      <span class="error"></span>
+    </div>
+
+
+    <!-- Buttons -->
+    <div class="btn-group">
+      <button type="button" id="prevBtn">Previous</button>
+      <button type="button" id="nextBtn">Next</button>
+    </div>
+
+
+  </form>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    padding: 20px;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;          /* Allows wrapping */
+    justify-content: center;  /* Center items */
+    gap: 20px;                /* Space between items */
+    padding: 20px;
+}
+
+/* Product Card */
+.product {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .product {
+        width: 100%;
+    }
+}
